@@ -1,0 +1,14 @@
+apple@appurunoMacBook-Air git_tutorial % echo "Hello,World" >> hello_world.txt
+apple@appurunoMacBook-Air git_tutorial % git add hello_world.txt
+apple@appurunoMacBook-Air git_tutorial % git commit -m "hello_world.txtを追加"
+[main f61bb92] hello_world.txtを追加
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+ create mode 100644 move_test/sample.txt
+apple@appurunoMacBook-Air git_tutorial % git add hello_world.txt              
+apple@appurunoMacBook-Air git_tutorial % git commit -m "日本語訳を追加"       
+[main 70b25e9] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+apple@appurunoMacBook-Air git_tutorial % git log --oneline
+70b25e9 (HEAD -> main) 日本語訳を追加
+f61bb92 hello_world.txtを追加
